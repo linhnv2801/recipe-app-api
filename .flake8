@@ -1,0 +1,22 @@
+[flake8]
+exclude =
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
+    __pycache__,
+    venv_statistic_service,
+    statistic_service/app/migrations,
+    .env,
+
+ignore =
+    E501,
+    F401,
+    DJ01,
+    F405,
+    F403,
+    DJ08,
+    E126,
+max-line-length = 90
+max-complexity = 18
+select = B,C,E,F,W,T4,B9
